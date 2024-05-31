@@ -12,7 +12,8 @@ Mặc định NextDNS chỉ cho bạn 300k querries/tháng, code sẽ giúp bạ
 Truy cập [My NextDNS](https://my.nextdns.io/signup) để tạo tài khoản, mình mặc định là tạo 10 tài khoản, còn bạn muốn tạo bao nhiêu thì tuỳ thích
 
 ### Cloudflare Worker
-1. Vào [Cloudflare Dashboard](https://dash.cloudflare.com/), chọn Worker & Pages, click Create Application > Create Worker(đặt tên tuỳ ý), sau đó ấn Deploy, url worker sẽ tự động tạo để truy cập 
+1. Vào [Cloudflare Dashboard](https://dash.cloudflare.com/), chọn Worker & Pages, click Create Application > Create Worker(đặt tên tuỳ ý), sau đó ấn Deploy, url worker sẽ tự động tạo để truy cập
+
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/captajn/DOH-Clouflare-NextDNS)
 2. Copy toàn bộ nội dung file index.js và dán vào worker của bạn
 3. Thay đổi info các profileid NextDNS vào mục const dohEndpoints = [
