@@ -20,6 +20,9 @@ Truy cập [My NextDNS](https://my.nextdns.io/signup) để tạo tài khoản, 
 3. Thay đổi info ở dòng https://dns1.nextdns.io/xxxx thay xxxx thành profileid NextDNS của bạn
 4. Dùng link url Worker đã tạo và dùng cho các thiết bị của bạn có hỗ trợ DOH
 
+### Chú ý
+Request Cloudflare Workers giới hạn 100k truy vấn/ngày
+
 ## English
 
 ### Description
@@ -37,3 +40,6 @@ Access [My NextDNS](https://my.nextdns.io/signup) and create many free accounts 
 2. Copy index.js and paste to your Clouflare Worker
 3. Change info of your account NextDNS on line https://dns1.nextdns.io/xxxx xxxx is your profileid NextDNS
 4. Use url Worker before to use with your devices
+
+### Attention
+Cloudflare Workers request max 100k/day
