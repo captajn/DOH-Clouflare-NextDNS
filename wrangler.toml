@@ -1,0 +1,7 @@
+name = "DOH Cloudflare NextDNS"
+workers_dev = true
+compatibility_date = "2024-05-31"
+main = "index.js"
+
+[placement]
+mode = "smart"
