@@ -13,7 +13,8 @@ Truy cập [My NextDNS](https://my.nextdns.io/signup) để tạo tài khoản, 
 
 ### Cloudflare Worker
 1. Vào [Cloudflare Dashboard](https://dash.cloudflare.com/), chọn Worker & Pages, click Create Application > Create Worker(đặt tên tuỳ ý), sau đó ấn Deploy, url worker sẽ tự động tạo để truy cập 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)]
+
+![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)
 2. Copy toàn bộ nội dung file index.js và dán vào worker của bạn
 3. Thay đổi info các profileid NextDNS vào mục const dohEndpoints = [
 4. Dùng link url Worker đã tạo và dùng cho các thiết bị của bạn có hỗ trợ DOH
